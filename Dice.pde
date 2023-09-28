@@ -92,7 +92,9 @@ class dIE
 myY=j;
 }
 String jf="Total: "+toatl;
-text(jf,360,745);  
+scale(1.5);
+fill(255);
+text(jf,360/1.5,745/1.5);  
 }
 }
 
