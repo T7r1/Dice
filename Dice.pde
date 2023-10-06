@@ -58,21 +58,21 @@ class dIE
 
     //fill((float)Math.random()*200+55,(float)Math.random()*200+55,(float)Math.random()*200+55);
      if (num==1){
-       fill(255,0,0);
+       fill(215,0,0);
     }else if (num==2){
-                 fill(255,255,0);
+                 fill(215,215,0);
 
     }else if (num==3){
-                fill(255,0,255);
+                fill(215,0,215);
 
     }else if (num==4){
-                 fill(0,255,255);
+                 fill(0,215,215);
 
     }else if (num==5){
-                 fill(0,0,255);
+                 fill(0,0,215);
 
     }else{
-                 fill(0,255,0);
+                 fill(0,215,0);
 
     } 
     rect(myX,myY,50,50);
