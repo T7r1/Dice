@@ -49,8 +49,32 @@ class dIE
 
     flip();
     toatl+=num;
-   // fill((float)Math.random()*127+90,(float)Math.random()*127+90,(float)Math.random()*127+90);
-    fill((float)Math.random()*200+55,(float)Math.random()*200+55,(float)Math.random()*200+55);
+//if (num%2==0)
+//fill(0,0,255);
+    //  fill((float)Math.random()*30+25,(float)Math.random()*50+35,(float)Math.random()*220+35);
+//else 
+//fill(255,0,0);
+   // fill((float)Math.random()*220+35,(float)Math.random()*50+35,(float)Math.random()*30+25);
+
+    //fill((float)Math.random()*200+55,(float)Math.random()*200+55,(float)Math.random()*200+55);
+     if (num==1){
+       fill(255,0,0);
+    }else if (num==2){
+                 fill(255,255,0);
+
+    }else if (num==3){
+                fill(255,0,255);
+
+    }else if (num==4){
+                 fill(0,255,255);
+
+    }else if (num==5){
+                 fill(0,0,255);
+
+    }else{
+                 fill(0,255,0);
+
+    } 
     rect(myX,myY,50,50);
     fill(0);
     if (num==1){
