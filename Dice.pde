@@ -29,12 +29,12 @@ class dIE
     num=(int)(Math.random()*6)+1;
  myX=x;
     myY=y;  }
+//chooses random int between 1-6 (not really necessary)
   void flip()
   {
     num=(int)(Math.random()*6)+1;
-  //   System.out.println(num);
   }
-  
+  //creates random die
   void show()
   {
     background(150,50,55);
@@ -49,6 +49,7 @@ class dIE
 
     flip();
     toatl+=num;
+//code for random colors for each die
 //if (num%2==0)
 //fill(0,0,255);
     //  fill((float)Math.random()*30+25,(float)Math.random()*50+35,(float)Math.random()*220+35);
@@ -57,6 +58,7 @@ class dIE
    // fill((float)Math.random()*220+35,(float)Math.random()*50+35,(float)Math.random()*30+25);
 
     //fill((float)Math.random()*200+55,(float)Math.random()*200+55,(float)Math.random()*200+55);
+//change color for each different number
      if (num==1){
                  fill(254,70,70);
     }else if (num==2){
@@ -77,6 +79,7 @@ class dIE
     } 
     rect(myX,myY,50,50);
     fill(0);
+//die
     if (num==1){
     ellipse(myX+25,myY+25,5,5);
     }else if (num==2){
@@ -108,13 +111,11 @@ class dIE
     }
                 myX=h;
 
-        //System.out.println(myX);
 
-    //java code
   }
-//System.out.println(myY);
 myY=j;
 }
+//total display
 String jf="Total: "+toatl;
 scale(1.5);
 fill(255);
